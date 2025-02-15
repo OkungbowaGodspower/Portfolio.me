@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  background-color: #cccce6;
+  color: #00001a;
+  font-size: 1.2rem;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+.logo {
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo-setter {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  margin-right: 0.5rem;
+}
+.logo-setter .title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-top: -1.1rem;
+}
+.job-title {
+  font-weight: lighter;
+  font-size: 0.8rem;
+  margin-left: -5.7rem;
+  margin-top: -1.4rem;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 0.3rem;
+}
+.nav-links li {
+  cursor: pointer;
+  margin: 0rem 0.5rem;
+}
+.nav-links li a {
+  text-decoration: none;
+}
+.line {
+  width: 20px;
+  height: 7px;
+  background-color: #00337b;
+  color: #00337b;
+  margin: 5px;
+}
+main {
+  margin: 3rem 4rem;
+}
+.margin-section {
+  margin-top: 5rem;
+  text-align: center;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+.my-name {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.bio {
+  font-size: 2rem;
+  margin: 0rem 7rem;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
+.highlight {
+  font-size: 2rem;
+  color: #00337b;
+}
+
+.project-title {
+  font-size: 3rem;
+  margin-top: 8rem;
+  text-align: center;
+  text-decoration: underline 7px solid;
+}
+.icon-logo {
+  font-size: 2.7rem;
+}
+.project-box {
+  display: flex;
+  align-items: center;
+}
+.project-info {
+  display: block;
+  margin: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+.project-img {
+  width: 90%;
+  border-radius: 10px;
+}
+.project-name {
+  text-align: left;
+  margin-left: 1.5rem;
+}
+.project-text {
+  text-align: center;
+  font-size: 1.2;
+  font-weight: lighter;
+  padding: 10px;
+  padding-left: 30px;
+  text-align: left;
+}
+.btn-links {
+  margin-top: 1rem;
+}
+.btn-links a {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #00337b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
